@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Joven Creativo</title>
+</head>
+<body style="background-color: black; color: white; font-family: Arial, Helvetica, sans-serif;">
+    <h1>Portfolio</h1>
+    <div>
+<nav>
+    <a href="#about">About me</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+</nav>
+    </div>
+    <section id="about">
+        <h2>About me</h2>
+        <div>
+            <h3>Andrés Moreno</h3>
+            <p>Soy un Joven Creativo</p>
+        </div>
+        <div>
+            <h3>Habilidades</h3>
+            <p>Jugar videojuegos</p>
+        </div>
+    </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <select>
+        <option value="al1">All Projects</option>
+        <option value="web">Web Development</option>
+    </select>
+    <div>
+        <img src="./IMG-20250401-WA0034.jpg" alt="Pagina Colegial" style="border-radius: 10px;">
+        <h3>Pagina Colegial</h3>
+        <p>Una pequeña pagina para un proyecto escolar</p>
+        <a href="#">Ver Proyecto</a>
+    </div>
+</section>
+
+<section>
+    <h2>Blog</h2>
+        <button>New Post</button>
+        <div>
+            <!--Aqui van nis entradas del blog-->
+
+        </div>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <div>
+        <img src="./IMG-20250422-WA0027.jpg" alt="Jean Boder" style="border-radius: 10px;">
+        <p>Este babosin me salvo del año, carreó el año como un campeón.</p>
+        <p>-Loenthefox</p>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact</h2>
+    <form>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" maxlength="50" required>
+
+        <label for="emal">Email</label>
+        <input type="email" id="email" placeholder="Escribe tu email" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" placeholder="Tu mensaje"></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+
+</section>
+</body>
+</html>
